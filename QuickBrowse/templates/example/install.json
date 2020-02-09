@@ -1,0 +1,34 @@
+{
+	"SETTINGS":
+	{
+		
+		    "VERSION": "1.1.0",
+		    "RELEASE": "r-002",
+		    "TITLE": "Cloudflare Tools",
+		    "DESCRIPTION": "Web-based cloudflare tools to easily work with cloudflare.",
+		    
+		    "AUTHOR": "doOnline.nl",
+		    "URL": "https://doonline.nl",
+		    "EMAIL": "doonline@doonline.nl",
+		    
+		    "INFO": "DNS: Let you export and import cloudflare DNS Tables and reconfigure them before exporting again."
+		
+	},
+	"REQUIRED": {
+	
+		    "MIN_VERSION": "3.4.9",
+		    "MAX_VERSION": "3.5.0",
+		    
+		    "DATABASE":
+		    {
+		            "TYPE": "mysql",
+			        "FILE": "database.sql"
+		    },
+		    
+		    "PACKAGES": {
+			    "phpmailer/phpmailer": "v6.1.4",
+			    "mollie/mollie-api-php": "v2.12.1"
+		    }
+	    
+	}
+}

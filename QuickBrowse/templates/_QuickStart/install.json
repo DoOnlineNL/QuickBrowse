@@ -1,0 +1,28 @@
+{
+	"SETTINGS": {
+		
+		"VERSION": "1.2.6",
+		"TITLE": "Quick Start Demo Template",
+		"DESCRIPTION": "A demo template featuring how to get started with the QuickBrowse web-developer Framework",
+		
+		"AUTHOR": "doOnline.nl",
+		"URL": "https://doonline.nl",
+		"EMAIL": "doonline@doonline.nl",
+		
+		"INFO": "Any amount of settings are possible, duplicates aren't useful as only the latest one works."
+		
+	},
+	"REQUIRED": {
+	
+		"MIN_VERSION": "3.4.7",
+		"MAX_VERSION": "3.5.0",
+		
+		"DATABASE": {
+			"IMPORT": "install.sql"
+		},
+		
+		"PACKAGES": [
+			"phpmailer/phpmailer"
+		]
+	}
+}
